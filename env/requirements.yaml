@@ -1,12 +1,13 @@
 dependencies:
 - alias: expose
   name: exposecontroller
-  repository: http://chartmuseum.jenkins-x.io
-  version: 2.3.89
+  repository: https://chartmuseum.build.cd.jenkins-x.io
+  version: 2.3.58
 - alias: cleanup
   name: exposecontroller
-  repository: http://chartmuseum.jenkins-x.io
-  version: 2.3.89
+  repository: https://chartmuseum.build.cd.jenkins-x.io
+  version: 2.3.58
 - name: python-flask-docker
   repository: http://jenkins-x-chartmuseum:8080
   version: 0.0.1
+
